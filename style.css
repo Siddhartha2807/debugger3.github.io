@@ -15,12 +15,12 @@
 }
 
 .logo1{
-    width: 10vw;
+    width: auto;
     cursor: pointer;
     height: 12vh;   
 }
 .logo2{
-    width: 100px;
+    width: auto;
     cursor: pointer;
     height: 100px;   
 }
@@ -163,7 +163,7 @@ h1{
     height: 12vh;   
 }
 .logo2{
-    width: 20vw;
+    width: auto;
     cursor: pointer;
     height: 12vh;   
 }
@@ -257,7 +257,7 @@ h1{
   }
 }
 @media screen and (max-width: 480px){
-  #win h3,h1{
+  #win h3,#winh1{
     text-align: center;
     line-height: 28px;
     font-size: 27px;
