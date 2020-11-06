@@ -148,7 +148,7 @@ h1{
 @media screen  and (max-width: 550px){
     
     .content h1{
-    font-size: 3rem;
+    font-size: 2.8rem;
     margin: 10px 0 30px;
     line-height: 40px;
     
@@ -158,7 +158,7 @@ h1{
         font-size: 1.5rem;
     }
    .logo1{
-    width: 30vw;
+    width: auto;
     cursor: pointer;
     height: 12vh;   
 }
