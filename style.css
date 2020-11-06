@@ -7,7 +7,7 @@
 .hero{
     width: 100%;
     height: 100vh;
-    background-image: url(img/index.jpg);
+    background-image: url(img/in.jpg);
     background-size: cover;
     background-position: center;
    
@@ -20,9 +20,9 @@
     height: 12vh;   
 }
 .logo2{
-    width: 7vw;
+    width: 100px;
     cursor: pointer;
-    height: 12vh;   
+    height: 100px;   
 }
 
 
@@ -67,7 +67,6 @@
 
 
 }
-
 
 
 
@@ -190,6 +189,13 @@ h1{
   margin-top: 20px;
  
   color: white;
+
+  }
+  @media screen and (min-width: 992px){
+    #eventCoordinators h1{
+      font-size: 40px;
+
+    }
   }
 
 /*css for winners section*/
@@ -244,14 +250,31 @@ h1{
 #win{
   text-align: center;
 }
+@media screen and (min-width: 992px){
+  #win h3,h1{
+    text-align: center;
+    line-height: 30px;
+  }
+}
+@media screen and (max-width: 480px){
+  #win h3,h1{
+    text-align: center;
+    line-height: 28px;
+    font-size: 27px;
 
+  }
+  #win h1{
+    font-size: 38px;
+
+  }
+}
 
 
 /*about section*/
 .backg{
      width: 100%;
     height: 75vh;
-     background-image: url(img/about.jpg);
+     background-image: url(img/newindex.jpg);
     background-size: cover;
     background-position: center;
      position: relative;
@@ -276,6 +299,13 @@ h1{
 #know{
   text-align: center;
 }
+@media screen and (min-width: 992px){
+  .para p
+{
+    font-size: 28px;
+}
+
+}
 
 
 
@@ -284,14 +314,14 @@ h1{
 --------------------------------------------------------------*/
 
 #footer {
-  background: #101522;
+  background: black;
   padding: 0 0 25px 0;
   color: #eee;
   font-size: 14px;
 }
 
 #footer .footer-top {
-  background: #040919;
+  background: teal;
   padding: 60px 0 30px 0;
 }
 
@@ -479,3 +509,8 @@ h1{
 #faq #faq-list a.collapsed i::before {
   content: "\f055" !important;
 }
+#faq #faq-list a:hover,#faq #faq-list a:focus {
+   color: darkblue;    text-decoration:none;
+}
+
+
