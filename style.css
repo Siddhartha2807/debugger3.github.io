@@ -188,6 +188,10 @@ h1{
     cursor: pointer;
     height: 12vh;   
 }
+#aj
+{
+  line-height:40px !important;
+}
 }
 
 
