@@ -208,7 +208,7 @@ h1{
 }
 .back{   
             width: 100%;
-            height: 80vh;
+            height: 90vh;
             background-image: url(img/winners.jpeg);
             background-size: cover;
             background-position: center;
@@ -321,7 +321,7 @@ h1{
 }
 
 #footer .footer-top {
-  background: teal;
+  background: #01204e;
   padding: 60px 0 30px 0;
 }
 
